@@ -1,0 +1,29 @@
+{
+	"name": "satoriworker.js",
+	"version": "0.0.1",
+	"description": "WebWorker SHIORI subsystem Satori",
+	"keywords": ["web", "worker"],
+	"main": "satoriworker.js",
+	"scripts": {
+		"test": "mocha"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"coffee-script": ">= 1.9.0",
+		"libsatori.js": "",
+		"nativeshiori": "",
+		"WorkerClientServer": "Narazaka/WorkerClientServer",
+		"NativeShioriWorker": "Ikagaka/NativeShioriWorker",
+		"encoding-japanese": "polygonplanet/encoding.js#master"
+	},
+	"author": {
+		"name": "narazaka",
+		"url": "http://narazaka.net/"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Ikagaka/satoriworker.js.git"
+	}
+}
