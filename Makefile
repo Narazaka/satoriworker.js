@@ -3,7 +3,7 @@ SHIORI_NAME = satori
 SHIORI_WORKER_CLASS = SatoriWorkerClient
 SHIORI_CLASS = Satori
 
-SHIORI = node_modules/libsatori.js/satoriya/satori/libsatori.js
+SHIORI = node_modules/libsatori.js/libsatori.js
 NATIVESHIORI = node_modules/nativeshiori/nativeshiori.js
 ENCODING = node_modules/encoding-japanese/encoding.min.js
 PROMISE = node_modules/bluebird/js/browser/bluebird.min.js
