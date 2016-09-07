@@ -95,7 +95,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
         _classCallCheck(this, SatoriWorker);
 
         // no fs with fork
-        var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(SatoriWorker).call(this));
+        var _this = _possibleConstructorReturn(this, (SatoriWorker.__proto__ || Object.getPrototypeOf(SatoriWorker)).call(this));
 
         _this._worker = new WorkerClient(workerMaker(), workerErrorHandler);
         return _this;
